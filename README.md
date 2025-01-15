@@ -31,18 +31,29 @@ OpenCV: For webcam-based image capture and processing.
 MySQL Online: For storing and managing attendance data.
 
 Step-by-Step Procedure:
+
 Teachable Machine
+![image](https://github.com/user-attachments/assets/f0aea921-ed0f-4ed8-a3bb-fc814b1e0310)
+
 Visit Teachable Machine.
+![image](https://github.com/user-attachments/assets/f1b39a71-7615-4ac3-a387-b3349aa37340)
+
 Select Image Project and create a new project.
+![image](https://github.com/user-attachments/assets/f4b4b180-ea46-49d1-866c-0767ddd5589d)
+
 
 Add four classes:
 Class 1: Add images of the first individual.
 Class 2: Add images of the second individual.
 Class 3: Add images of the third individual.
 Class 4: Add images of the fourth individual.
+![image](https://github.com/user-attachments/assets/2590d979-0179-48b9-9f99-f285a72d9ef8)
+
 Train the model by clicking the Train Model button.
 Export the trained model:
 Select Keras Model as the export format.
+![image](https://github.com/user-attachments/assets/a0b9e877-77eb-4e56-923a-97d1001bd717)
+
 Download the keras_Model.h5 and labels.txt files.
 
 MySQL Online Setup:
@@ -84,6 +95,8 @@ TensorFlow: To load and use the trained model from Teachable Machine.
 OpenCV: For capturing and processing webcam images.
 MySQL Connector: To connect and interact with the MySQL database.
 NumPy: For numerical computations and image array processing.
+![image](https://github.com/user-attachments/assets/945c4709-dc73-4763-b57d-6a611c1479d5)
+
 
 Step 2: Connect to the MySQL Database
 First, set up the connection to your MySQL database.
